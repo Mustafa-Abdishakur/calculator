@@ -41,7 +41,6 @@ if(el!=='='){
     }
 
     
-    console.log(`first num:${firstNum}. second num:${secondNum}. operator:${operator}`);
 }
 
 
@@ -51,8 +50,7 @@ document.querySelector('.result').addEventListener('click', ()=>{
     finalNum = eval(firstNum + operator + secondNum);
     display.textContent = finalNum;
 
-console.log(finalNum);
-reset();
+    reset();
 
 
 });
